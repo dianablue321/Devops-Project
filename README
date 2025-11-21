@@ -1,0 +1,12 @@
+# Infra Automation Project
+
+## Overview
+Python-based tool simulating infrastructure provisioning and service configuration.
+
+## Setup (Windows + Git Bash)
+```bash
+git clone <repo-url>
+cd "C:/Project Devops/infra-automation"
+python -m venv venv
+source venv/Scripts/activate
+pip install -r requirements.txt

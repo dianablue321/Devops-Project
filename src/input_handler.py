@@ -45,3 +45,4 @@ def collect_input() -> List[dict]:
     with open(CONFIG_FILE, "w") as f:
         json.dump(machines, f, indent=4)
     return machines
+
